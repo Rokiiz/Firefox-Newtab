@@ -15,25 +15,25 @@ With this option abavialble you can add your own local html file as a new tab
 > firefox can be installed in a different location but this is the default :arrow_down:
 
 #### Linux:
-copy `firefoxScripts/defaults/pref/config.js` to `/usr/lib/firefox/`:
+copy `firefoxScripts/config.js` to `/usr/lib/firefox/`:
 
-- `cp firefoxScripts/defaults/pref/config.js /usr/lib/firefox/`
+- `cp firefoxScripts/config.js /usr/lib/firefox/`
 
-then copy `config-prefs.js` to `/usr/lib/firefox/browser/defaults/preferences/`:
+then copy `firefoxScripts/defaults/pref/config-prefs.js` to `/usr/lib/firefox/browser/defaults/preferences/`:
 
 - `cp firefoxScripts/config-prefs.js /usr/lib/firefox/browser/defaults/preferences/`
 
 #### Windows:
-just put both contents ( **firefoxScripts/config-prefs.js** and **firefoxScripts/defaults** ) in:
+just put both contents ( **firefoxScripts/config.js** and **firefoxScripts/defaults** ) in:
 
 `C:\Program Files\Mozilla Firefox`
 
 #### MacOS:
-the **firefoxScripts/config-prefs.js** goes here:
+the **firefoxScripts/config.js** goes here:
 
 - `Firefox.app/Contents/Resources/defaults/pref/config-prefs.js`
 
-and **firefoxScripts/defaults/pref/config.js** goes here:
+and **firefoxScripts/defaults/pref/config-prefs.js** goes here:
 
 - `Firefox.app/Contents/Resources/defaults/pref/config-prefs.js`
 
