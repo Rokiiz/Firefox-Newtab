@@ -8,7 +8,7 @@ With this option abavialble you can add your own local html file as a new tab
 
   this should create a directory called FireFox-Newtab:
 
-- `git clone https://github.com/RisedNote/Firefox-Newtab && cd Firefox-Newtab`
+- `git clone https://github.com/Rokiiz/Firefox-Newtab.git && cd Firefox-Newtab`
 
 2. now you need to put the contents of **firefoxScripts** in their proper paths
 
